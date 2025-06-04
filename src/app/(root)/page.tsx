@@ -1,7 +1,9 @@
-import Image from 'next/image'
-import Header from './components/page'
+import Image from 'next/image';
+import Header from './components/page';
+
 
 export default function Home() {
+
   return (
     <div className='px-4 w-xl mx-auto my-3'>
       <h1 className='text-center text-red-600 bg-amber-200 p-3 rounded-xl text-3xl mx-auto w-96'>tailwindcss tutorial</h1>
@@ -25,7 +27,7 @@ export default function Home() {
           <div className="flex flex-col gap-2 p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4 bg-amber-50 rounded-xl max-w-sm mx-auto">
             <Image 
             className="mx-auto block h-24 rounded-full sm:mx-0 sm:shrink-0" 
-            src="/yo.jpeg" alt="yo" 
+            src="/pics/yo.jpeg" alt="yo" 
             width={80}
             height={500} 
             />

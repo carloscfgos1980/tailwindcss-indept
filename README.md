@@ -43,6 +43,17 @@ export default Header
 
 # responsive_style & Dark mode
 
+4/06/2025
 src/app/(root)/page.tsx
 
+# Pseudo classes: Hover & focus
+src/app/(root)/hover-focus/page.tsx
+
+# Pseudo classes: first, last. DElimnate padding from first and last li
+src/app/(root)/hover-focus/page.tsx
+
+* Here I also implemented to fetch a dummy data in order to loop over and display a list
+
+# Pseudo classes: odd, even. Give a different background color to the even li
+src/app/(root)/hover-focus/page.tsx
 

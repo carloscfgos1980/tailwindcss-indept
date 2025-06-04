@@ -30,7 +30,8 @@ function FlexComponent() {
                 <Image 
                 src="/chitchat.png" alt="ChitChat Logo"
                 width={80}
-                height={80} />
+                height={80} 
+                />
                 <div className='mx-2'>
                     <p>
                         <strong>Andrew Alfred</strong>
