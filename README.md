@@ -40,3 +40,9 @@ export default Header
 *******
 
 * I had a bug due typescript. I need to create a type. After that everything went smooth. I call this component several time in the route flex and grids. I refresh knowledge about component and how to pass arguments.
+
+# responsive_style & Dark mode
+
+src/app/(root)/page.tsx
+
+
