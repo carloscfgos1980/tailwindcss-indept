@@ -68,7 +68,80 @@ function HoverFocus() {
                 </tbody>
                 </table>      
         </div>
-        
+        <div className="before_after">
+            <Header subject="Pseudo classes: Before & After" description="Style the ::before and ::after pseudo-elements using the before and after variants:"/>  
+            <label>
+            <span className="text-gray-700 after:ml-0.5 after:text-red-500 after:content-['*'] ...">Email</span>
+            <input type="email" name="email" className="..." placeholder="you@example.com" />
+            </label> 
+            <blockquote className="mt-5 text-center text-2xl font-semibold text-gray-900 italic dark:text-white">
+            When you look
+            <span className="relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-pink-500">
+                <span className="relative text-white dark:text-gray-950">annoyed</span>
+            </span>
+            all the time, people think that you`re busy.
+            </blockquote>          
+        </div>
+        <div className="marker mt-5">
+            <Header subject="::Marker" description="Style the counters or bullets in lists using the marker variant:"/>
+            <ul role="list" className="list-disc marker:text-sky-400 ...">
+                <li>5 cups chopped Porcini mushrooms</li>
+                <li>1/2 cup of olive oil</li>
+                <li>3lb of celery</li>
+            </ul>
+        </div>
+        <div className="selection">
+            <Header subject="::selection" description="Style the active text selection using the selection variant:"/>
+            <div className="selection:bg-fuchsia-300 selection:text-fuchsia-900">
+                <p>
+                    So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my
+                    way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all
+                    living things but I tell you Jerry at that moment, I <em>was</em> a marine biologist.
+                </p>
+            </div>
+        </div>
+        <div className="firsLetter mt-5">
+            <Header subject="First Letter" description="Style the first line in a block of content using the first-line variant, and the first letter using the first-letter variant:"/>   
+            <div className="text-gray-700">
+                <p
+                    className="first-letter:float-left first-letter:mr-3 first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 first-line:tracking-widest first-line:uppercase"
+                >
+                    Well, let me tell you something, funny boy. Y'know that little stamp, the one that says "New York Public Library"?
+                </p>
+                <p className="mt-6">Well that may not mean anything to you, but that means a lot to me. One whole hell of a lot.</p>
+            </div>
+        </div>
+        <div className="prefered_reduced_motion mt-5">
+            <Header subject="prefered reduce motion" description="Style the first line in a block of content using the first-line variant, and the first letter using the first-letter variant:"/>  
+            {/* the svg is not working! */}
+            <button type="button" className="bg-indigo-500 ..." disabled>
+            <svg className="animate-spin motion-reduce:hidden ..." viewBox="0 0 24 24"></svg>
+            Processing...
+            </button>
+            <button className="transition hover:-translate-y-0.5 motion-reduce:transition-none motion-reduce:hover:translate-y-0 bg-indigo-500 mx-3 p-3 rounded-xl">
+            Save changes
+            </button>
+
+            <button className="motion-safe:transition motion-safe:hover:-translate-x-0.5 bg-indigo-500 mx-3 p-3 rounded-xl">Save changes</button>
+        </div>
+        <div className="child_selector mt-3">
+            <Header subject="prefered reduce motion" description="Style the first line in a block of content using the first-line variant, and the first letter using the first-letter variant:"/> 
+            <div>
+            <h2>Categories</h2>
+            <ul className=" flex flex-wrap *:rounded-full *:border *:border-sky-100 *:bg-sky-50 *:px-2 *:py-0.5 dark:text-sky-300 dark:*:border-sky-500/15 dark:*:bg-sky-500/10 *:m-3">
+                <li>Sales</li>
+                <li>Marketing</li>
+                <li>SEO</li>
+                <li>Analytics</li>
+                <li>Design</li>
+                <li>Strategy</li>
+                <li>Security</li>
+                <li>Growth</li>
+                <li>Mobile</li>
+                <li>UX/UI</li>
+            </ul>
+            </div>            
+        </div>
     </div>
   )
 }

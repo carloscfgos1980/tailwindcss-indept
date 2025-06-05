@@ -57,3 +57,21 @@ src/app/(root)/hover-focus/page.tsx
 # Pseudo classes: odd, even. Give a different background color to the even li
 src/app/(root)/hover-focus/page.tsx
 
+# before & after to use cool styling
+
+5/06/2025
+src/app/(root)/hover-focus/page.tsx
+
+# Marker. Style the dots of a list
+
+
+# Selection. Style the maker when we select a text
+
+# First Letter. Newspaper style making the first letter bigger
+
+# Motion to the buttons
+The svg is not working
+
+# Child selector. Give style to the shild elements
+
+* There are a bunch of styling tricks here. I might need to come back to this sections
