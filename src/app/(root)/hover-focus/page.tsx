@@ -94,8 +94,8 @@ function HoverFocus() {
             <Header subject="::selection" description="Style the active text selection using the selection variant:"/>
             <div className="selection:bg-fuchsia-300 selection:text-fuchsia-900">
                 <p>
-                    So I started to walk into the water. I won't lie to you boys, I was terrified. But I pressed on, and as I made my
-                    way past the breakers a strange calm came over me. I don't know if it was divine intervention or the kinship of all
+                    So I started to walk into the water. I wont lie to you boys, I was terrified. But I pressed on, and as I made my
+                    way past the breakers a strange calm came over me. I dont know if it was divine intervention or the kinship of all
                     living things but I tell you Jerry at that moment, I <em>was</em> a marine biologist.
                 </p>
             </div>
@@ -106,7 +106,7 @@ function HoverFocus() {
                 <p
                     className="first-letter:float-left first-letter:mr-3 first-letter:text-7xl first-letter:font-bold first-letter:text-gray-900 first-line:tracking-widest first-line:uppercase"
                 >
-                    Well, let me tell you something, funny boy. Y'know that little stamp, the one that says "New York Public Library"?
+                    Well, let me tell you something, funny boy. Y know that little stamp, the one that says  New York Public Library?
                 </p>
                 <p className="mt-6">Well that may not mean anything to you, but that means a lot to me. One whole hell of a lot.</p>
             </div>
