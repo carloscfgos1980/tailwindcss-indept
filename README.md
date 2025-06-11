@@ -117,7 +117,7 @@ https://tailwindcss.com/docs/object-fit
 src/app/(root)/overflow/page.tsx
 
 - overflow Visible
-In order to make the imahe to go further the parent element. I need to set th high bigger than the high of the parent element and use the utility of <overflow-visible>
+In order to make the image to go further the parent element. I need to set th high bigger than the high of the parent element and use the utility of <overflow-visible>
 
 - overflow -not visible
 
@@ -127,3 +127,37 @@ Same as boven but with the utility <overflow-hidden>
 
 - I can create this effect horizontally, using this utility: <overflow-x-auto>
 - I can create this effect vertically, using this utility: <overflow-y-auto>
+
+# position
+
+src/app/(root)/position/page.tsx
+
+* I recreate 2 examples. When it is absoluto, the element get the coordeates froom the screen and it does not stick in the parent element
+
+Another uses od <position>
+<Absolutely positioning elements>
+Use the absolute utility to position an element outside of the normal flow of the document, causing neighboring elements to act as if the element doesn't exist:
+<Fixed positioning elements>
+Use the fixed utility to position an element relative to the browser window:
+Scroll this element to see the fixed positioning in action
+<Sticky positioning elements>
+Use the sticky utility to position an element as relative until it crosses a specified threshold, then treat it as fixed until its parent is off screen:
+
+# top_left_button_right
+* This is using the grids. It is very useful to distribute elements in the DOM
+
+# Using negative values
+
+11/06/2025
+
+* This place the element outside of the parent element
+
+# Using logical properties
+
+* This works ok but some some the left (start) lement psition on the top and the right (end) element position on the button
+
+# Making element invisible
+src/app/(root)/visibility/page.tsx
+
+# Collapsing elements
+* This is another way to hide and element

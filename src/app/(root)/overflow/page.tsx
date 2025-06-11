@@ -6,7 +6,6 @@ import dummyData, { Person } from '../components/data'
 function OverFlow() {
   return (
     <div>
-        <div>
         <h1 className='text-center text-red-600 bg-amber-200 p-3 rounded-xl text-2xl mx-auto w-96 mb-5'>Overflow</h1>
         <div className="overflow">
             <div className="Show_Overflow py-5 max-w-6/12 mx-auto">
@@ -66,8 +65,29 @@ function OverFlow() {
                 }
                     </ul> 
                 </div>
+            </div>
+            <div className="scrolling_horizontally max-w-md mx-auto">
+                <Header subject="Scrolling horizontally" description="Use the overflow-x-auto utility to allow horizontal scrolling if needed:"/>
+                <div className="flex w-md overflow-x-auto">
+                    {dummyData.map((person: Person) =>{
+                        return (
+                            <div className="flex flex-colum p-4 border-2 border-amber-700" key={person.id}>
+                            <Image 
+                            className="h-10 w-10 rounded-full" 
+                            src={person.imagePath} alt="" 
+                            width={100}
+                            height={80}
+                            />
+                            <div className="ml-3 overflow-hidden">
+                                <p className="text-sm font-medium text-gray-900 dark:text-white">{person.name}</p>
+                                <p className="truncate text-sm text-gray-500 dark:text-gray-400">{person.email}</p>
+                            </div>
+                        </div>
+                        )
+                    })}
+
                 </div>
-        </div>
+            </div>
         </div>
     </div>
   )
