@@ -14,7 +14,7 @@ export default function Visibility() {
             </div>
         </div>
         <div className="colapsing_elements max-w-lg mx-auto">
-          <Header subject="Invisible elements" description="Use the collapse utility to hide table rows, row groups, columns, and column groups as if they were set to display: none, but without impacting the size of other rows and columns:"/> 
+          <Header subject="Colapsing" description="Use the collapse utility to hide table rows, row groups, columns, and column groups as if they were set to display: none, but without impacting the size of other rows and columns:"/> 
           <table>
             <thead>
               <tr>

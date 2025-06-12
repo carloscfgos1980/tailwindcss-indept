@@ -9,7 +9,7 @@ export default function Position() {
             <Header subject="Static Position Elements" description="Use the static utility to position an element according to the normal flow of the document:"/>
             <div className='max-h-80'>
                 <div className="static bg-blue-200 p-5">
-                    <p>Static parent</p>
+                    <p className='text-black'>Static parent</p>
                 <div className="absolute bottom-0 left-0 bg-blue-500">
                     <p>Absolute child</p>
                 </div>
@@ -20,7 +20,7 @@ export default function Position() {
             <Header subject="Relative Position Elements" description="Use the static utility to position an element according to the normal flow of the document:"/>
             <div className='max-h-80'>
                 <div className="static bg-blue-200 m-2">
-                    <p>Static parent</p>
+                    <p className='text-black'>Static parent</p>
                 <div className="relative bottom-0 left-0 bg-blue-500 mt-2">
                     <p>Absolute child</p>
                 </div>
@@ -62,7 +62,7 @@ export default function Position() {
         <div className="negative_values max-w-lg mx-auto">
             <Header subject="Negative values" description="To use a negative top/right/bottom/left value, prefix the class name with a dash to convert it to a negative value:"/> 
             <div className="relative bg-fuchsia-400 size-32 *:rounded-xl *:*:rounded-xl">
-                <div className="absolute -top-4 -left-4 size-14 bg-blue-600 text-amber-300">negative</div>
+                <div className="absolute -top-4 -left-4 size-20 bg-blue-600 text-amber-300 flex items-center justify-center">negative</div>
             </div>   
         </div>
         <div className="using_logical max-w-lg mx-auto">

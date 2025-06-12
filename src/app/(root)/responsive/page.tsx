@@ -29,8 +29,8 @@ function Responsive() {
                 </p>
                 </div>
             </div>
-            <div className="column_layout_number mx-auto px-5">
-                <Header subject="colum" description="Use columns-<number> utilities like columns-3 to set the number of columns that should be created for the content within an element:"/>
+            <div className="column_layout_number max-w-lg mx-auto px-5">
+                <Header subject="columns" description="Use columns-<number> utilities like columns-3 to set the number of columns that should be created for the content within an element:"/>
                 <div className='columns-3 gap-3 *:my-3'>
                     <Image 
                     className="" 
@@ -99,27 +99,27 @@ function Responsive() {
                     />
                 </div>
             </div>
-            <div className="after_break max-w-72 mx-auto">
+            <div className="after_break max-w-lg mx-auto">
                 <Header subject="After Break" description="Use utilities like break-after-column and break-after-page to control how a column or page break should behave after an element:"/>
-                <div className="columns-2 *:my-4">
+                <div className="columns-2 *:m-4 bg-blue-500 *:text-amber-100">
                     <p>Well, let me tell you something, ...</p>
                     <p className="break-after-column">Sure, go ahead, laugh...</p>
                     <p>Maybe we can live without...</p>
                     <p>Look. If you think this is...</p>
                     </div>
             </div>
-            <div className="before_break max-w-72 mx-auto">
+            <div className="before_break  max-w-lg mx-auto">
                 <Header subject="Before Break" description="Use utilities like break-before-column and break-before-page to control how a column or page break should behave before an element:"/>
-                <div className="columns-2 *:my-4">
+                <div className="columns-2 *:m-4 bg-blue-500 *:text-amber-100">
                     <p>Well, let me tell you something, ...</p>
                     <p className="break-before-column">Sure, go ahead, laugh...</p>
                     <p>Maybe we can live without...</p>
                     <p>Look. If you think this is...</p>
                     </div>
             </div>
-            <div className="Inside_break max-w-72 mx-auto">
+            <div className="Inside_break max-w-lg mx-auto">
                 <Header subject="Inside Break" description="Use utilities like break-inside-column and break-inside-avoid-page to control how a column or page break should behave within an element:"/>
-                <div className="columns-2 *:my-4">
+                <div className="columns-2 *:m-4 bg-blue-500 *:text-amber-100">
                     <p>Well, let me tell you something, ...</p>
                     <p className="break-inside-avoid-column">Sure, go ahead, laugh...</p>
                     <p>Maybe we can live without...</p>
