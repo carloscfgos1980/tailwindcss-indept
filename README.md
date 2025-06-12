@@ -180,3 +180,17 @@ http://localhost:3000/visibility
 3. Index basic
 * This is took me a bit of time to figure out cuz the example does not show all the needed codes. It was essenctial to use the utility <translate> so the elements will stack on each other and create de 3D effect
 4. Z index negative value
+
+# Flex Basis & Flex Direction
+
+src/app/(root)/flex/page.tsx
+http://localhost:3000/flex
+ <Flex Basis>
+1. flex Basis
+2. Flex: Using the container scale
+3. Flex: Using Percentages
+4. Flex: Responsive designs
+
+<Flex Direction>
+1. Flex Row Reversed
+2. Flex Column Reversed
