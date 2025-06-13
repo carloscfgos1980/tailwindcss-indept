@@ -194,3 +194,24 @@ http://localhost:3000/flex
 <Flex Direction>
 1. Flex Row Reversed
 2. Flex Column Reversed
+
+# Flex Wrap, Flex, Flex Growing & Flex shrink
+
+<Flex Wrapc>
+1. Flex Wrap
+2. Flex Wrap Reversed
+* This feature will take more than one row if the sume of the items if larfer than the parent container
+
+<Flex>
+1. Flex basis
+2. Flex Auto
+3. Flex None
+
+<Flex Growing>
+1. Flex Grow
+2. Growing items based on factor
+3. Preventing items from growing
+
+<Flex Shrink>
+1. Allowing flex items to shrink
+2. Preventing items from shrinking

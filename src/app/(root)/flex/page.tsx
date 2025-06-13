@@ -107,6 +107,90 @@ function FlexComponent() {
                 <div className="flex items-center justify-center">03</div>
             </div>
         </div>
+        <h1 className='text-center text-red-600 bg-amber-200 p-3 rounded-xl text-3xl mx-auto w-96 my-5'>Flex Wrap</h1>
+        <div className="flex_wrap max-w-lg mx-auto">
+            <Header subject="Flex Wrap" description="Use flex-wrap to allow flex items to wrap:"/>
+            <div className="flex flex-wrap gap-3 *:rounded-lg *:bg-violet-700 *:text-amber-50 *:h-16 *:w-48">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <div className="flex_wrap_reversed max-w-lg mx-auto">
+            <Header subject="Flex Wrap Reversed" description="Use flex-wrap-reverse to wrap flex items in the reverse direction:"/>
+            <div className="flex flex-wrap-reverse gap-3 *:rounded-lg *:bg-blue-700 *:text-amber-50 *:h-16 *:w-48">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <h1 className='text-center text-red-600 bg-amber-200 p-3 rounded-xl text-3xl mx-auto w-96 my-5'>Flex</h1> 
+        <div className="flex_basis max-w-lg mx-auto">
+            <Header subject="Flex Basis" description="Use flex-<number> utilities like flex-1 to allow a flex item to grow and shrink as needed, ignoring its initial size:"/>
+            <div className="flex gap-3 *:rounded-lg *:bg-red-700 *:text-amber-50 *:h-16">
+                <div className="w-14 flex-none flex items-center justify-center ">01</div>
+                <div className="w-64 flex-1 flex items-center justify-center ">02</div>
+                <div className=" w-32 flex-1 flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <div className="flex_auto max-w-lg mx-auto">
+            <Header subject="Flex Auto" description="Use flex-auto to allow a flex item to grow and shrink, taking into account its initial size:"/>
+            <div className="flex gap-3 *:rounded-lg *:bg-blue-700 *:text-amber-50 *:h-16">
+                <div className="w-14 flex-none flex items-center justify-center ">01</div>
+                <div className="w-64 flex-auto flex items-center justify-center ">02</div>
+                <div className=" w-32 flex-auto flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <div className="flex_none max-w-lg mx-auto">
+            <Header subject="Flex None" description="Use flex-none to prevent a flex item from growing or shrinking:"/>
+            <div className="flex gap-3 *:rounded-lg *:bg-violet-700 *:text-amber-50 *:h-16">
+                <div className="w-14 flex-none flex items-center justify-center ">01</div>
+                <div className="w-64 flex-auto flex items-center justify-center ">02</div>
+                <div className=" w-32 flex-1 flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <h1 className='text-center text-red-600 bg-amber-200 p-3 rounded-xl text-3xl mx-auto w-96 my-5'>Flex Growing</h1> 
+        <div className="flex_grow max-w-lg mx-auto">
+            <Header subject="Flex Grow" description="Use grow to allow a flex item to grow to fill any available space:"/>
+            <div className="flex gap-3 *:rounded-lg *:bg-green-700 *:text-amber-50 *:h-16">
+                <div className="w-14 flex-none flex items-center justify-center ">01</div>
+                <div className="w-14 flex-grow flex items-center justify-center ">02</div>
+                <div className=" w-14 flex-none flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <div className="flex_grow_factor max-w-lg mx-auto">
+            <Header subject="Growing items based on factor" description="Use grow-<number> utilities like grow-3 to make flex items grow proportionally based on their growth factor, allowing them to fill the available space relative to each other:"/>
+            <div className="flex gap-3 *:rounded-lg *:bg-blue-700 *:text-amber-50 *:h-16">
+                <div className="w-14 grow-3 flex items-center justify-center ">01</div>
+                <div className="w-14 grow-7 flex items-center justify-center ">02</div>
+                <div className=" w-14 grow-3 flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <div className="flex_no_grow max-w-lg mx-auto">
+            <Header subject="Preventing items from growing" description="Use grow-0 to prevent a flex item from growing:"/>
+            <div className="flex gap-3 *:rounded-lg *:bg-red-700 *:text-amber-50 *:h-16">
+                <div className="w-14 grow flex items-center justify-center ">01</div>
+                <div className="w-14 grow-0 flex items-center justify-center ">02</div>
+                <div className=" w-14 grow flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <h1 className='text-center text-red-600 bg-amber-200 p-3 rounded-xl text-3xl mx-auto w-96 my-5'>Flex Shrink</h1> 
+        <div className="flex_shrink max-w-lg mx-auto">
+            <Header subject="Allowing flex items to shrink" description="Use shrink to allow a flex item to shrink if needed:"/>
+            <div className="flex gap-3 *:rounded-lg *:bg-blue-700 *:text-amber-50 *:h-16">
+                <div className="w-14 flex-none flex items-center justify-center ">01</div>
+                <div className="w-64 flex-shrink flex items-center justify-center ">02</div>
+                <div className=" w-14 flex-none flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <div className="flex_no_shrink max-w-lg mx-auto">
+            <Header subject="Preventing items from shrinking" description="Use shrink-0 to prevent a flex item from shrinking:"/>
+            <div className="flex gap-3 *:rounded-lg *:bg-violet-700 *:text-amber-50 *:h-16">
+                <div className="flex-1 flex items-center justify-center ">01</div>
+                <div className="w-64 shrink-0 flex items-center justify-center ">02</div>
+                <div className="flex-1 flex items-center justify-center">03</div>
+            </div>
+        </div>
     </div>
   )
 }
