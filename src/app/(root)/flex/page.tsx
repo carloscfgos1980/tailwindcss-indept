@@ -191,6 +191,23 @@ function FlexComponent() {
                 <div className="flex-1 flex items-center justify-center">03</div>
             </div>
         </div>
+        <h1 className='text-center text-red-600 bg-amber-200 p-3 rounded-xl text-3xl mx-auto w-96 mt-5'>Order</h1>
+        <div className="order max-w-lg mx-auto">
+            <Header subject="Explicitly setting a sort order" description="Use order-<number> utilities like order-1 and order-3 to render flex and grid items in a different order than they appear in the document:"/>
+            <div className="flex justify-between *:rounded-lg *:bg-violet-700 *:text-amber-50 *:size-16 bg-gray-400 p-3">
+                <div className="order-3 flex items-center justify-center ">01</div>
+                <div className="order-1 flex items-center justify-center ">02</div>
+                <div className="order-2 flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <div className="order max-w-lg mx-auto">
+            <Header subject="Ordering items first or last" description="Use the order-first and order-last utilities to render flex and grid items first or last:"/>
+            <div className="flex justify-between *:rounded-lg *:bg-blue-700 *:text-amber-50 *:size-16 bg-gray-400 p-3">
+                <div className="order-last flex items-center justify-center ">01</div>
+                <div className="flex items-center justify-center ">02</div>
+                <div className="order-first flex items-center justify-center">03</div>
+            </div>
+        </div>
     </div>
   )
 }

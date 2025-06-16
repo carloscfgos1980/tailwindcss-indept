@@ -215,3 +215,26 @@ http://localhost:3000/flex
 <Flex Shrink>
 1. Allowing flex items to shrink
 2. Preventing items from shrinking
+
+# Order (flex)
+16/06/2025
+<order>
+src/app/(root)/flex/page.tsx
+http://localhost:3000/flex
+
+- Explicitly setting a sort order
+- Ordering items first or last
+
+* This is to change the order of the elements, using flex
+
+# Grid Column
+
+- Specifying the grid columns
+- Implementing a subgrid columns: This expand the amount of colums of certain element and what position the element is placed
+- Spanning columns. Make the element bigger (more thabn one column)
+- Starting and ending lines: utilities like col-start-2 and col-end-3 to make an element start or end at the nth grid line
+
+# Grid row
+
+- Specifying the grid rows
+- Implementing a subgrid. Same explanation like colums but row direction
