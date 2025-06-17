@@ -136,6 +136,54 @@ function Grid_component() {
                 <div className="flex items-center justify-center">09</div>
             </div>
         </div>
+        <div className="spanning_row max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Spanning rows" description="Use row-span-<number> utilities like row-span-2 and row-span-4 to make an element span n rows:"/>
+            <div className="grid grid-flow-col grid-rows-3 gap-4  *:bg-fuchsia-700 *:text-amber-50 bg-gray-400 p-3">
+                <div className="row-span-3 flex items-center justify-center">01</div>
+                <div className="col-span-2 flex items-center justify-center ">02</div>
+                <div className="col-span-2 row-span-2 flex items-center justify-center">03</div>
+
+            </div>
+        </div>
+        <div className="grid_end_start max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Starting and ending lines" description="Use row-start-<number> or row-end-<number> utilities like row-start-2 and row-end-3 to make an element start or end at the nth grid line:"/>
+            <div className="grid grid-flow-col grid-rows-3 gap-4  *:bg-blue-700 *:text-amber-50 bg-gray-400 p-3 h-56">
+                <div className="row-span-2 row-start-2  flex items-center justify-center">01</div>
+                <div className="row-span-2 row-end-3 flex items-center justify-center ">02</div>
+                <div className="row-start-1 row-end-4 flex items-center justify-center">03</div>
+
+            </div>
+        </div>
+        <div className="grid-auto-flow max-w-lg mx-auto **:rounded-lg">
+            <Header subject="grid auto flow" description="Use utilities like grid-flow-col and grid-flow-row-dense to control how the auto-placement algorithm works for a grid layout:"/>
+            <div className="grid grid-flow-row-dense grid-cols-3 grid-rows-3 gap-4  *:bg-blue-700 *:text-amber-50 bg-gray-400 p-3 h-56">
+                <div className="col-span-2 flex items-center justify-center">01</div>
+                <div className="col-span-2 flex items-center justify-center ">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+                <div className="flex items-center justify-center">05</div>
+                <div className="flex items-center justify-center">06</div>
+                <div className="flex items-center justify-center">07</div>
+            </div>
+        </div>
+        <div className="grid-auto-columns max-w-lg mx-auto **:rounded-lg">
+            <Header subject="grid auto Columns" description="Use utilities like auto-cols-min and auto-cols-max to control the size of implicitly-created grid columns:"/>
+            <div className="grid auto-cols-max grid-flow-col gap-4  *:bg-blue-700 *:text-amber-50 bg-gray-400 p-3">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center ">02</div>
+                <div className="flex items-center justify-center">03</div>
+
+            </div>
+        </div>
+        <div className="grid-auto-row max-w-lg mx-auto **:rounded-lg">
+            <Header subject="grid auto Rows" description="Utilities for controlling the size of implicitly-created grid rows."/>
+            <div className="grid grid-flow-row auto-rows-max gap-4  *:bg-violet-700 *:text-amber-50 bg-gray-400 p-3">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center ">02</div>
+                <div className="flex items-center justify-center">03</div>
+
+            </div>
+        </div>
     </div>
   )
 }

@@ -228,6 +228,9 @@ http://localhost:3000/flex
 * This is to change the order of the elements, using flex
 
 # Grid Column
+src/app/(root)/grid/page.tsx
+<http://localhost:3000/grid>
+
 
 - Specifying the grid columns
 - Implementing a subgrid columns: This expand the amount of colums of certain element and what position the element is placed
@@ -238,3 +241,10 @@ http://localhost:3000/flex
 
 - Specifying the grid rows
 - Implementing a subgrid. Same explanation like colums but row direction
+- Spanning rows
+- Grid. Starting and ending lines
+
+# Grid flow
+- grid auto flow
+- grid auto Columns
+- grid auto Row
