@@ -208,6 +208,79 @@ function FlexComponent() {
                 <div className="order-first flex items-center justify-center">03</div>
             </div>
         </div>
+        <h1 className='text-center text-red-600 bg-amber-200 p-3 rounded-xl text-3xl mx-auto w-96 mt-5'>Justify Content</h1>
+        <div className="justify_content_start max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Justify Content Start" description="Use the justify-start utility to justify items against the start of the container's main axis:"/>
+            <div className="flex justify-start *:bg-red-700 *:text-amber-50 bg-gray-400 p-3 *:size-16 *:m-2">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <div className="justify_content_center max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Justify Content Center" description="Use the justify-center or justify-center-safe utilities to justify items along the center of the container's main axis:"/>
+            <div className="flex justify-center *:bg-blue-700 *:text-amber-50 bg-gray-400 p-3 *:size-16 *:m-2 m-2">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+            </div>
+            <div className="flex justify-center-save *:bg-violet-700 *:text-amber-50 bg-gray-400 p-3 *:size-16 *:m-2">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+            </div>
+            <h5 className='bg-black text-amber-100 p-3'>When there is not enough space available, the justify-center-safe utility will align items to the start of the container instead of the center</h5>
+        </div>
+        <div className="justify_content_end max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Justify Content End" description="Use the justify-end or justify-end-safe utilities to justify items against the end of the container's main axis:"/>
+            <div className="flex justify-end *:bg-red-700 *:text-amber-50 bg-gray-400 p-3 *:size-16 *:m-2 m-2">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+            </div>
+            <div className="flex justify-end-save *:bg-fuchsia-700 *:text-amber-50 bg-gray-400 p-3 *:size-16 *:m-2">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+            </div>
+            <h5 className='bg-black text-amber-100 p-3'>When there is not enough space available, the justify-end-safe utility will align items to the start of the container instead of the end.</h5>
+        </div>
+        <div className="justify_content_between max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Justify Content Between" description="Use the justify-between utility to justify items along the container's main axis such that there is an equal amount of space between each item:"/>
+            <div className="flex justify-between *:bg-blue-700 *:text-amber-50 bg-gray-400 py-3 *:size-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <div className="justify_content_around max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Justify Content Around" description="Use the justify-around utility to justify items along the container's main axis such that there is an equal amount of space on each side of each item:"/>
+            <div className="flex justify-around *:bg-fuchsia-700 *:text-amber-50 bg-gray-400 py-3 *:size-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <div className="justify_content_space_evenly max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Justify Content Space Evenly" description="Use the justify-evenly utility to justify items along the container's main axis such that there is an equal amount of space around each item, but also accounting for the doubling of space you would normally see between each item when using justify-around:"/>
+            <div className="flex justify-evenly *:bg-blue-700 *:text-amber-50 bg-gray-400 py-3 *:size-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <div className="justify_content_strech max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Justify Content Strech" description="Use the justify-stretch utility to allow content items to fill the available space along the container's main axis:"/>
+            <div className="flex justify-stretch *:bg-fuchsia-700 *:text-amber-50 bg-gray-400 py-3 *:mx-2 *:w-64 *:h-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+            </div>
+        </div>
     </div>
   )
 }

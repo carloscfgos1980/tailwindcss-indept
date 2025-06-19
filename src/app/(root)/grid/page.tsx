@@ -181,7 +181,82 @@ function Grid_component() {
                 <div className="flex items-center justify-center">01</div>
                 <div className="flex items-center justify-center ">02</div>
                 <div className="flex items-center justify-center">03</div>
-
+            </div>
+        </div>
+        <h1 className='text-center text-red-600 bg-amber-200 p-3 rounded-xl text-3xl mx-auto w-96 mt-5'>Gap</h1>
+        <div className="gap_classic max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Gap classic" description="Use gap-<number> utilities like gap-2 and gap-4 to change the gap between both rows and columns in grid and flexbox layouts:"/>
+            <div className="grid grid-cols-2 gap-4  *:bg-blue-700 *:text-amber-50 bg-gray-400 p-3 *:h-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+            </div>
+        </div>
+        <div className="gap_row_columns max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Changing row and column gaps independently" description="Use gap-x-<number> or gap-y-<number> utilities like gap-x-8 and gap-y-4 to change the gap between columns and rows independently:"/>
+            <div className="grid grid-cols-3 gap-x-8 gap-y-4  *:bg-green-700 *:text-amber-50 bg-gray-400 p-3 *:h-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+                <div className="flex items-center justify-center">05</div>
+                <div className="flex items-center justify-center">06</div>
+            </div>
+        </div>
+        <h1 className='text-center text-red-600 bg-amber-200 p-3 rounded-xl text-3xl mx-auto w-96 mt-5'>Justify Items</h1>
+        <div className="justify_items_start max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Justify Items Start" description="Use the justify-items-start utility to justify grid items against the start of their inline axis:"/>
+            <div className="grid grid-cols-3 gap-y-2  *:bg-blue-700 *:text-amber-50 bg-gray-400 p-3 *:size-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+                <div className="flex items-center justify-center">05</div>
+                <div className="flex items-center justify-center">06</div>
+            </div>
+        </div>
+        <div className="justify_items_end max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Justify Items End" description="Use the justify-items-end or justify-items-end-safe utilities to justify grid items against the end of their inline axis:"/>
+            <div className="grid grid-flow-col justify-items-end *:bg-blue-700 *:text-amber-50 bg-gray-400 p-3 **:size-16 mb-2">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+            </div>
+            <div className="grid grid-flow-col justify-items-end-safe *:bg-violet-700 *:text-amber-50 bg-gray-400 p-3 *:size-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+            </div>
+            <h5 className='bg-black text-amber-100 p-3'>When there is not enough space available, the justify-items-end-safe utility will align items to the start of the container instead of the end.</h5>
+        </div>
+        <div className="justify_items_center max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Justify Items Center" description="Use the justify-items-center or justify-items-center-safe utilities to justify grid items against the end of their inline axis:"/>
+            <div className="grid grid-flow-col justify-items-center *:bg-green-700 *:text-amber-50 bg-gray-400 p-3 **:size-16 mb-2">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+            </div>
+            <div className="grid grid-flow-col justify-items-center-safe *:bg-amber-700 *:text-amber-50 bg-gray-400 p-3 *:size-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+            </div>
+            <h5 className='bg-black text-amber-100 p-3'>When there is not enough space available, the justify-items-center-safe utility will align items to the start of the container instead of the center.</h5>
+        </div>
+        <div className="justify_items_strech max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Justify Items Strech" description="Use the justify-items-stretch utility to stretch items along their inline axis:"/>
+            <div className="grid grid-cols-3 justify-items-stretch gap-4  *:bg-blue-700 *:text-amber-50 bg-gray-400 p-3 *:h-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+                <div className="flex items-center justify-center">05</div>
+                <div className="flex items-center justify-center">06</div>
             </div>
         </div>
     </div>

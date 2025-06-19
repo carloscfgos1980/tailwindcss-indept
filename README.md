@@ -248,3 +248,36 @@ src/app/(root)/grid/page.tsx
 - grid auto flow
 - grid auto Columns
 - grid auto Row
+
+# 19/06/2025
+# Gap
+src/app/(root)/grid/page.tsx
+<http://localhost:3000/grid>
+
+- Gap classic
+- Gap giving different aalues to x (columns) and y (rows)
+
+# Justify Content
+* This is to use with <flex>
+
+src/app/(root)/flex/page.tsx
+<http://localhost:3000/flex>
+
+- Justify Content Start
+- Justify Content Center
+- Justify Content End
+- Justify Content Between
+- Justify Content Around
+- Justify Content Space Evenly
+- Justify Content Strech
+
+# Justify Items
+* This is to use with <grid>
+
+src/app/(root)/grid/page.tsx
+<http://localhost:3000/grid>
+
+- Justify Items Start
+- Justify Items Center
+- Justify Items End
+- Justify Items Strech
