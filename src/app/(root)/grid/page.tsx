@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/page'
+import Image from 'next/image'
 
 function Grid_component() {
   const blueRounded:string = 'bg-blue-800 text-amber-50 p-3 rounded-xl w-24 text-center'
@@ -248,8 +249,8 @@ function Grid_component() {
             </div>
             <h5 className='bg-black text-amber-100 p-3'>When there is not enough space available, the justify-items-center-safe utility will align items to the start of the container instead of the center.</h5>
         </div>
-        <div className="justify_items_strech max-w-lg mx-auto **:rounded-lg">
-            <Header subject="Justify Items Strech" description="Use the justify-items-stretch utility to stretch items along their inline axis:"/>
+        <div className="justify_items_stretch max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Justify Items Stretch" description="Use the justify-items-stretch utility to stretch items along their inline axis:"/>
             <div className="grid grid-cols-3 justify-items-stretch gap-4  *:bg-blue-700 *:text-amber-50 bg-gray-400 p-3 *:h-16">
                 <div className="flex items-center justify-center">01</div>
                 <div className="flex items-center justify-center">02</div>
@@ -258,6 +259,114 @@ function Grid_component() {
                 <div className="flex items-center justify-center">05</div>
                 <div className="flex items-center justify-center">06</div>
             </div>
+        </div>
+        <h1 className='text-center text-red-600 bg-amber-200 p-3 rounded-xl text-3xl mx-auto w-96 mt-5'>Align Items</h1>
+        <div className="align_content_start max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Align Content Start" description="Use content-start to pack rows in a container against the start of the cross axis:"/>
+            <div className="grid h-56 grid-cols-3 content-start gap-4  *:bg-fuchsia-700 *:text-amber-50 bg-gray-400 p-3 *:h-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+                <div className="flex items-center justify-center">05</div>
+            </div>
+        </div>
+        <div className="align_content_center max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Align Content Center" description="Use content-center to pack rows in a container in the center of the cross axis:"/>
+            <div className="grid h-56 grid-cols-3 content-center gap-4  *:bg-blue-700 *:text-amber-50 bg-gray-400 p-3 *:h-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+                <div className="flex items-center justify-center">05</div>
+            </div>
+        </div>
+        <div className="align_content_end max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Align Content End" description="Use content-end to pack rows in a container against the end of the cross axis:"/>
+            <div className="grid h-56 grid-cols-3 content-end gap-4  *:bg-red-700 *:text-amber-50 bg-gray-400 p-3 *:h-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+                <div className="flex items-center justify-center">05</div>
+            </div>
+        </div>
+        <div className="align_content_between max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Align Content Between" description="Use content-between to distribute rows in a container such that there is an equal amount of space between each line:"/>
+            <div className="grid h-56 grid-cols-3 content-between gap-4  *:bg-violet-700 *:text-amber-50 bg-gray-400 p-3 *:h-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+                <div className="flex items-center justify-center">05</div>
+            </div>
+        </div>
+        <div className="align_content_around max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Align Content Around" description="Use content-around to distribute rows in a container such that there is an equal amount of space around each line:"/>
+            <div className="grid h-56 grid-cols-3 content-around gap-4  *:bg-blue-700 *:text-amber-50 bg-gray-400 p-3 *:h-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+                <div className="flex items-center justify-center">05</div>
+            </div>
+        </div>
+        <div className="align_content_evenly max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Align Content Evenly" description="Use content-evenly to distribute rows in a container such that there is an equal amount of space around each item, but also accounting for the doubling of space you would normally see between each item when using content-around:"/>
+            <div className="grid h-56 grid-cols-3 content-evenly gap-4  *:bg-fuchsia-700 *:text-amber-50 bg-gray-400 p-3 *:h-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+                <div className="flex items-center justify-center">05</div>
+            </div>
+        </div>
+        <div className="align_content_stretch max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Align Content Stretch" description="Use content-evenly to distribute rows in a container such that there is an equal amount of space around each item, but also accounting for the doubling of space you would normally see between each item when using content-around:"/>
+            <div className="grid h-56 grid-cols-3 content-stretch gap-4  *:bg-red-700 *:text-amber-50 bg-gray-400 p-3">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+                <div className="flex items-center justify-center">05</div>
+            </div>
+        </div>
+        <div className="last_baseline max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Last baseline" description="Use the items-baseline-last utility to align items along the container's cross axis such that all of their baselines align with the last baseline in the container:"/>
+          <div className="grid grid-cols-[1fr_auto] items-baseline-last bg-amber-50 rounded-xl mx-auto border-4 border-black">
+            <div>
+              <div className="flex content-between items-end p-3 ">
+                <Image 
+                className="rounded-full me-3 mb-12" 
+                src="/pics/yo.jpeg" alt="yo" 
+                width={30}
+                height={30} 
+                />
+                <div className='me-3 mt-2'>
+                  <h4>Carlos Infante</h4>
+                  <p className='mt-3'>Working on the future of astronaut recruitment at Space Recruit.</p>
+                </div>
+              </div>
+            </div>
+            <p className='underline cursor-pointer  me-3'>spacerecruit.com</p>
+          </div>
+          <div className="grid grid-cols-[1fr_auto] items-baseline-last bg-amber-50 rounded-xl mx-auto border-4 border-black">
+            <div>
+              <div className="flex content-between items-end p-3 ">
+                <Image 
+                className="rounded-full me-3 mb-6" 
+                src="/pics/flaki.jpeg" alt="flaki" 
+                width={30}
+                height={30} 
+                />
+                <div className='me-3 mt-2'>
+                  <h4>Flakita Rica</h4>
+                  <p className='mt-3'>Working on be my freaking muse!</p>
+                </div>
+              </div>
+            </div>
+            <p className='underline cursor-pointer  me-3'>negrito.com</p>
+          </div>
         </div>
     </div>
   )

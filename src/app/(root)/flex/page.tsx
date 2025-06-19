@@ -273,12 +273,53 @@ function FlexComponent() {
                 <div className="flex items-center justify-center">03</div>
             </div>
         </div>
-        <div className="justify_content_strech max-w-lg mx-auto **:rounded-lg">
-            <Header subject="Justify Content Strech" description="Use the justify-stretch utility to allow content items to fill the available space along the container's main axis:"/>
-            <div className="flex justify-stretch *:bg-fuchsia-700 *:text-amber-50 bg-gray-400 py-3 *:mx-2 *:w-64 *:h-16">
+        <div className="justify_content_stretch max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Justify Content Stretch" description="Use the justify-stretch utility to allow content items to fill the available space along the container's main axis:"/>
+            <div className="flex justify-stretch *:bg-fuchsia-700 *:text-amber-50 bg-gray-400 py-3 *:mx-2 *:w-64">
                 <div className="flex items-center justify-center">01</div>
                 <div className="flex items-center justify-center">02</div>
                 <div className="flex items-center justify-center">03</div>
+            </div>
+        </div>
+        <h1 className='text-center text-red-600 bg-amber-200 p-3 rounded-xl text-3xl mx-auto w-96 mt-5'>Aling Items</h1>
+        <div className="align_items_stretch max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Align Items Stretch" description="Use the items-stretch utility to stretch items to fill the container's cross axis:"/>
+            <div className="flex items-stretch justify-center *:bg-blue-700 *:text-amber-50 bg-gray-400 p-3 *:w-32 *:mx-3">
+                <div className="flex items-center justify-center py-4">01</div>
+                <div className="flex items-center justify-center py-12">02</div>
+                <div className="flex items-center justify-center py-8">03</div>
+            </div>
+        </div>
+        <div className="align_items_start max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Align Items Start" description="Use the items-start utility to align items to the start of the container's cross axis:"/>
+            <div className="flex items-start justify-center *:bg-red-700 *:text-amber-50 bg-gray-400 p-3 *:w-32 *:mx-3">
+                <div className="flex items-center justify-center py-4">01</div>
+                <div className="flex items-center justify-center py-12">02</div>
+                <div className="flex items-center justify-center py-8">03</div>
+            </div>
+        </div>
+        <div className="align_items_center max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Align Items Center" description="Use the items-center utility to align items along the center of the container's cross axis:"/>
+            <div className="flex items-center justify-center *:bg-violet-700 *:text-amber-50 bg-gray-400 p-3 *:w-32 *:mx-3">
+                <div className="flex items-center justify-center py-4">01</div>
+                <div className="flex items-center justify-center py-12">02</div>
+                <div className="flex items-center justify-center py-8">03</div>
+            </div>
+        </div>
+        <div className="align_items_end max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Align Items End" description="Use the items-end utility to align items to the end of the container's cross axis:"/>
+            <div className="flex items-end justify-center *:bg-green-700 *:text-amber-50 bg-gray-400 p-3 *:w-32 *:mx-3">
+                <div className="flex items-center justify-center py-4">01</div>
+                <div className="flex items-center justify-center py-12">02</div>
+                <div className="flex items-center justify-center py-8">03</div>
+            </div>
+        </div>
+        <div className="align_items_baseline max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Align Items Baseline" description="Use the items-baseline utility to align items along the container's cross axis such that all of their baselines align:"/>
+            <div className="flex items-baseline justify-baseline *:bg-blue-700 *:text-amber-50 bg-gray-400 p-3 *:w-32 *:mx-3">
+                <div className="flex justify-center pt-2 pb-6">01</div>
+                <div className="flex justify-center pt-8 pb-12">02</div>
+                <div className="flex justify-center pt-12 pb-4">03</div>
             </div>
         </div>
     </div>

@@ -269,7 +269,7 @@ src/app/(root)/flex/page.tsx
 - Justify Content Between
 - Justify Content Around
 - Justify Content Space Evenly
-- Justify Content Strech
+- Justify Content Stretch
 
 # Justify Items
 * This is to use with <grid>
@@ -280,4 +280,77 @@ src/app/(root)/grid/page.tsx
 - Justify Items Start
 - Justify Items Center
 - Justify Items End
-- Justify Items Strech
+- Justify Items Stretch
+
+# Justify-self
+https://tailwindcss.com/docs/justify-self
+
+I didn't develop this example. They are way too specific. I won't be use those utilites that often. Nevertheless I will copy the explanation
+
+justify-self
+Utilities for controlling how an individual grid item is aligned along its inline axis.
+
+Auto
+Use the justify-self-auto utility to align an item based on the value of the grid's justify-items property:
+
+Start
+Use the justify-self-start utility to align a grid item to the start of its inline axis:
+
+Center
+Use the justify-self-center or justify-self-center-safe utilities to align a grid item along the center of its inline axis:
+
+End
+Use the justify-self-end or justify-self-end-safe utilities to align a grid item to the end of its inline axis:
+
+Stretch
+Use the justify-self-stretch utility to stretch a grid item to fill the grid area on its inline axis:
+
+# Align Content
+src/app/(root)/grid/page.tsx
+<http://localhost:3000/grid>
+
+- Align Content Start
+- Align Content Center
+- Align Content End
+- Align Content Between
+- Align Content Around
+- Align Content Evenly
+- Align Content Stretch
+
+# Align items
+
+src/app/(root)/flex/page.tsx
+<http://localhost:3000/flex>
+
+- Align Items Stretch
+- Align Items Start
+- Align Items Center
+- Align Items End
+- Align Items Baseline
+- Last Items baseline
+* This last one is done woth grid instead of flex
+src/app/(root)/grid/page.tsx
+<http://localhost:3000/grid>
+
+# align-self
+https://tailwindcss.com/docs/align-self
+
+Auto
+Use the self-auto utility to align an item based on the value of the container's align-items property:
+
+Use the self-start utility to align an item to the start of the container's cross axis, despite the container's align-items value:
+
+Center
+Use the self-center utility to align an item along the center of the container's cross axis, despite the container's align-items value:
+
+End
+Use the self-end utility to align an item to the end of the container's cross axis, despite the container's align-items value:
+
+Stretch
+Use the self-stretch utility to stretch an item to fill the container's cross axis, despite the container's align-items value:
+
+Baseline
+Use the self-baseline utility to align an item such that its baseline aligns with the baseline of the flex container's cross axis:
+
+Last baseline
+Use the self-baseline-last utility to align an item along the container's cross axis such that its baseline aligns with the last baseline in the container:
