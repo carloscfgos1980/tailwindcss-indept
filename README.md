@@ -354,3 +354,18 @@ Use the self-baseline utility to align an item such that its baseline aligns wit
 
 Last baseline
 Use the self-baseline-last utility to align an item along the container's cross axis such that its baseline aligns with the last baseline in the container:
+
+# Place content
+
+src/app/(root)/grid/page.tsx
+<http://localhost:3000/grid>
+
+* This is not working as supposed but also I won;t waste more time with it cuz it is not very useful
+
+- Plcae Content Start
+- Plcae Content Center
+- Plcae Content End
+- Plcae Content Between
+- Plcae Content Around
+- Plcae Content Evenly
+- Plcae Content Stretch

@@ -368,6 +368,70 @@ function Grid_component() {
             <p className='underline cursor-pointer  me-3'>negrito.com</p>
           </div>
         </div>
+        <h1 className='text-center text-red-600 bg-amber-200 p-3 rounded-xl text-3xl mx-auto w-96 mt-5'>Place Content</h1>
+        <div className="place_center max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Place Center" description="Use place-content-center to pack items in the center of the block axis:"/>
+            <div className="grid h-48 grid-cols-2 place-content-center gap-4  *:bg-fuchsia-700 *:text-amber-50 bg-gray-400 px-12 *:h-10">
+                <div className="flex items-center justify-center ms-12">01</div>
+                <div className="flex items-center justify-center me-12">02</div>
+                <div className="flex items-center justify-center ms-12">03</div>
+                <div className="flex items-center justify-center me-12">04</div>
+            </div>
+        </div>
+        <div className="place_start max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Place Start" description="Use place-content-start to pack items against the start of the block axis:"/>
+            <div className="grid h-48 grid-cols-2 place-content-start gap-4  *:bg-blue-700 *:text-amber-50 bg-gray-400">
+              <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+            </div>
+        </div>
+        <div className="place_end max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Place End" description="Use place-content-center to pack items in the center of the block axis:"/>
+            <div className="grid h-48 grid-cols-2 place-content-end gap-4  *:bg-violet-700 *:text-amber-50 bg-gray-400 *:h-16">
+              <div className="flex items-center justify-center ms-12">01</div>
+                <div className="flex items-center justify-center me-12">02</div>
+                <div className="flex items-center justify-center ms-12">03</div>
+                <div className="flex items-center justify-center me-12">04</div>
+            </div>
+        </div>
+        <div className="place_space_between max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Place Space between" description="Use place-content-between to distribute grid items along the block axis so that there is an equal amount of space between each row on the block axis:"/>
+            <div className="grid h-48 grid-cols-2 place-content-between gap-4  *:bg-violet-700 *:text-amber-50 bg-gray-400">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+            </div>
+        </div>
+        <div className="place_space_around max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Place Space Around" description="Use place-content-around to distribute grid items such that there is an equal amount of space around each row on the block axis:"/>
+            <div className="grid h-48 grid-cols-2 place-content-around gap-4  *:bg-violet-700 *:text-amber-50 bg-gray-400 *:size-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+            </div>
+        </div>
+        <div className="place_space_evenly max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Place Space venly" description="Use place-content-evenly to distribute grid items such that they are evenly spaced on the block axis:"/>
+            <div className="grid h-48 grid-cols-2 place-content-evenly gap-4  *:bg-blue-700 *:text-amber-50 bg-gray-400 *:size-16">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+            </div>
+        </div>
+        <div className="place_stretch max-w-lg mx-auto **:rounded-lg">
+            <Header subject="Place Stretch" description="Use place-content-center to pack items in the center of the block axis:"/>
+            <div className="grid h-48 grid-cols-2 place-content-stretch gap-4  *:bg-fuchsia-700 *:text-amber-50 bg-gray-400">
+                <div className="flex items-center justify-center">01</div>
+                <div className="flex items-center justify-center">02</div>
+                <div className="flex items-center justify-center">03</div>
+                <div className="flex items-center justify-center">04</div>
+            </div>
+        </div>
     </div>
   )
 }
