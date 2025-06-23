@@ -369,3 +369,39 @@ src/app/(root)/grid/page.tsx
 - Plcae Content Around
 - Plcae Content Evenly
 - Plcae Content Stretch
+
+# 23/06/2025
+
+# padding
+https://tailwindcss.com/docs/padding
+
+Using logical properties
+Use ps-<number> or pe-<number> utilities like ps-4 and pe-8 to set the padding-inline-start and padding-inline-end logical properties, which map to either the left or right side based on the text direction:
+
+<div>
+  <div dir="ltr">
+    <div class="ps-8 ...">ps-8</div>
+    <div class="pe-8 ...">pe-8</div>
+  </div>
+  <div dir="rtl">
+    <div class="ps-8 ...">ps-8</div>
+    <div class="pe-8 ...">pe-8</div>
+  </div>
+</div>
+
+# margin
+https://tailwindcss.com/docs/margin
+
+- Using negative values
+
+src/app/(root)/(layout-flex-grid)/position/page.tsx
+<http://localhost:3000/position>
+
+# width
+
+src/app/(root)/(layout-fl)/typography/page.tsx
+<http://localhost:3000/typography>
+
+- Basic
+- Width Using a percentage
+- Using Container Scale

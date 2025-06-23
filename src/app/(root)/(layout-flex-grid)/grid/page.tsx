@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../components/page'
+import Header from '../../components/page'
 import Image from 'next/image'
 
 function Grid_component() {

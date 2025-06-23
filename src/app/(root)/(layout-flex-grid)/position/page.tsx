@@ -1,5 +1,6 @@
 import React from 'react'
-import Header from '../components/page'
+import Header from '../../components/page'
+
 
 export default function Position() {
   return (
@@ -89,6 +90,14 @@ export default function Position() {
             <div className="left-10">02</div>
             <div className="left-0">01</div>
           </div>
+        </div>
+        <h1 className='margin_negative_value text-red-600 bg-amber-200 p-3 rounded-xl text-2xl mx-auto w-96 mb-5'>Margin</h1>
+        <div className="stacking_3d max-w-lg mx-auto">
+            <Header subject="Margin negative Value" description="To use a negative margin value, prefix the class name with a dash to convert it to a negative value:"/>
+            <div className='mx-auto text-center'>
+                <div className="h-16 w-36 bg-sky-400 opacity-20"></div>
+                <div className="-mt-8 bg-sky-300 size-16 ">-mt-8</div>
+            </div>
         </div>
     </div>
   )

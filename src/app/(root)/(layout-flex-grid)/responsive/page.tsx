@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import Header from '../components/page'
+import Header from '../../components/page'
 
 function Responsive() {
   return (

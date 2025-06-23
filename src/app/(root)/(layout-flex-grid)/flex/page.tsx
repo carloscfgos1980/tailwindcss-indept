@@ -1,5 +1,6 @@
 import Image from 'next/image'
-import Header from '../components/page'
+import Header from '../../components/page'
+
 
 function FlexComponent() {
   return (

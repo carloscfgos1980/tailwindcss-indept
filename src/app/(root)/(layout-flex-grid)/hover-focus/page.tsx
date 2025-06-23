@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from '../components/page';
-import dummyData from '../components/data';
-import { Person } from '../components/data';
+import Header from '../../components/page';
+import dummyData from '../../components/data';
+import { Person } from '../../components/data';
 import Image from 'next/image';
-import peopleData, { Worker } from '../components/peopleData';
+import peopleData, { Worker } from '../../components/peopleData';
  
 function HoverFocus() {
     console.log("dummyData:", dummyData);
