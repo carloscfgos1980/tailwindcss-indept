@@ -405,3 +405,20 @@ src/app/(root)/(layout-fl)/typography/page.tsx
 - Basic
 - Width Using a percentage
 - Using Container Scale
+
+# 25/06/2025
+
+#  Width
+- Width min classic
+- Width min percentage
+
+# Height
+- Height classic
+- Height percentage
+- Height min classic
+- Height min percentage
+- Height max
+- Height max percentage
+
+* It was difficult to swith the text direction. I finally did it but only from top to button
+
