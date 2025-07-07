@@ -420,5 +420,20 @@ src/app/(root)/(layout-fl)/typography/page.tsx
 - Height max
 - Height max percentage
 
-* It was difficult to swith the text direction. I finally did it but only from top to button
+* It was difficult to swith the text direction. I finally did it but only from top to botton
+
+# 7/07/25
+<Tyography>
+
+- font-family
+- font-size
+- font-smoothing
+- font-style
+- font-weight
+- font-stretch
+- letter-spacing
+- line-clamp (limit the amount of lines that are shown)
+- line-height
+- list-style-type
+- text-align
 
