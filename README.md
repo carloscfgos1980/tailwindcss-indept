@@ -437,3 +437,14 @@ src/app/(root)/(layout-fl)/typography/page.tsx
 - list-style-type
 - text-align
 
+# 9/07/25
+
+- Color
+- Text Line Decoration Basic
+- Text Line Decoration Color
+- Text Line Decoration Style
+- Text Line Decoration Thickness
+- Underline offset (distance between the line and the text)
+- Text transform ( to lowercase or to uppercase)
+- Text overflow
+- Text wrap
