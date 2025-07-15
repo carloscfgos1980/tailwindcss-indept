@@ -448,3 +448,10 @@ src/app/(root)/(layout-fl)/typography/page.tsx
 - Text transform ( to lowercase or to uppercase)
 - Text overflow
 - Text wrap
+
+# 15/07/25
+- Backgrounds-attachment. scroll text over the image
+- Backgrounds-attachment. scroll text over and the image
+- Backgrounds-attachment. Image fixed and scroll text
+- Backgrounds gradient. Cool colors effect
+
