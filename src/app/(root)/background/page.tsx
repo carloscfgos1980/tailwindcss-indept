@@ -88,6 +88,15 @@ function Backgroungs() {
             <div className="bg-linear-to-r/decreasing from-indigo-500 to-teal-400"></div>
             </div>
         </div>
+        <h1 className='text-center text-red-600 bg-amber-200 p-3 rounded-xl text-2xl mx-auto w-96 mb-5'>EFFECTS</h1>
+        <div className="mix_blend_mode max-w-sm mx-auto">
+            <Header subject="Mix blend mode" description="Use the interpolation modifier to control the interpolation mode of a gradient:"/>
+            <div className="flex justify-center -space-x-14">
+            <div className="bg-blue-500 mix-blend-multiply rounded-full size-24"></div>
+            <div className="bg-pink-500 mix-blend-multiply rounded-full size-24"></div>
+            </div>
+        </div>
+
     </div>
   )
 }

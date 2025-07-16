@@ -455,3 +455,27 @@ src/app/(root)/(layout-fl)/typography/page.tsx
 - Backgrounds-attachment. Image fixed and scroll text
 - Backgrounds gradient. Cool colors effect
 
+# 16/07/25
+
+- Borders. This is simple so I didn't do the examples, just read them.
+- there is a gay to great border without <border> utility:
+
+<div className="grid grid-cols-3 divide-x-4 divide-gray-200">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+
+- Applying on focus
+Prefix a border-color utility with a variant like focus:* to only apply the utility in that state
+
+<input className="border-2 border-gray-700 focus:border-pink-600 ..." />
+
+- Shadow. Those are nice 3D effects. I wont't coy the examples coz they are very simple.
+
+- Mix blend mode. I added at the end of backgrounds route. It is cool eefect, using <space> with negative value, I create a stacking effect
+
+- filters. this is like using photoshop
+
+* This lessons (filters and effects) were pretty boring. It is just about styling images which It is easier to do with photoshop
+- THE END
