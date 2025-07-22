@@ -479,3 +479,19 @@ Prefix a border-color utility with a variant like focus:* to only apply the util
 
 * This lessons (filters and effects) were pretty boring. It is just about styling images which It is easier to do with photoshop
 - THE END
+
+# 22/07/25
+- Transition & Animations
+
+src/(root)/trans-anim/page.tsx
+
+- Transition property
+- Transition behavior
+- Transition Duration
+- Transition Timing Function
+- Transition Delay
+- Adding a spin animation
+- Adding a ping animation
+- Adding Pulse animation
+
+* Cool animation that I can use later!
