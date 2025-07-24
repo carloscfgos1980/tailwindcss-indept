@@ -495,3 +495,18 @@ src/(root)/trans-anim/page.tsx
 - Adding Pulse animation
 
 * Cool animation that I can use later!
+
+# 23/07/25
+- Transform
+
+src/(root)/transforms.page.tsx
+
+- backface-visibility
+- perspective
+
+# 24/07/25
+
+- rotate
+- skew
+- transform
+- translate
