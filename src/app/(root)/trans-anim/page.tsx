@@ -70,10 +70,19 @@ export default function transistionAnimation() {
         </div>
         <div className="ping_animation_ping max-w-xl mx-auto">
             <Header subject="Adding a ping animation" description="Use the animate-ping utility to make an element scale and fade like a radar ping or ripple of water—useful for things like notification badges:"/>
-            <span className="relative flex size-3">
-                <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>
-                <span className="relative inline-flex size-3 rounded-full bg-sky-500"></span>
-            </span>
+            <div className='flex justify-center'>
+                <div className='relative h-16 w-32 border-2 rounded-xl border-blue-600 text-blue-600'>
+                    <p className='p-2 text-center'>Transactions</p>
+                    <div className='absolute top-0 right-0 translate-x-1 -translate-y-1'>
+                        <span className="relative flex size-3">
+                            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>
+                            <span className="relative inline-flex size-3 rounded-full bg-sky-500"></span>
+                        </span>
+                    </div>
+
+                </div>
+
+            </div>
         </div>
         <div className="pulse_animation max-w-xl mx-auto">
             <Header subject="Adding Pulse animation" description="Use the animate-pulse utility to make an element gently fade in and out—useful for things like skeleton loaders:"/>
